@@ -1,0 +1,30 @@
+@use '../custom' as *;
+
+// BASIC SETTINGS
+
+html, ul {
+    text-align: justify;
+}
+
+.image.hide {
+    display: none;
+}
+
+.image.show {
+    display: block;
+}
+
+// SCROLLBAR
+
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: $gray-600;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: $primary;
+}
